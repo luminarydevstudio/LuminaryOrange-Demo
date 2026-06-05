@@ -721,6 +721,12 @@ body.modal-open { overflow: hidden; }
   .modal__body h2 { font-size: 1.45rem; }
 }
 
+/* ─── DEMO MODE ──────────────────────────────────────────────────────────── */
+body.demo-mode a {
+  pointer-events: none;
+  cursor: default;
+}
+
 /* ─── FLOATING ACTION BUTTON ─────────────────────────────────────────────── */
 .fab {
   position: fixed;
